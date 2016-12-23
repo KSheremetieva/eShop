@@ -1,0 +1,25 @@
+<div ng-if="!!signInError" class="col-xs-10 col-xs-push-1">
+<div class="alert alert-danger">
+  <strong>Oh no..Something wrong!</strong> Please check your email and password.
+</div>
+</div>
+
+<div class="signin">
+	<div class="container">
+
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="q@gmail.com" required autofocus ng-model="email">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="123" required ng-model="pass">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="getData(email, pass)">Sign in</button>
+      </form>
+
+    </div> <!-- /container -->
+</div>

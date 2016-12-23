@@ -1,0 +1,90 @@
+{
+  "Date": "2016-12-21",
+  "content": [
+    {
+      "cont_name": "home",
+      "header": "",
+      "blocks": [
+        {
+        "block_name": "slideText",
+        "text1": "Our world revolves around the customer.",
+        "text2": "We care about quality customer service.",
+        "text3": "We do our best to earn your trust."
+      },
+      {
+        "block_name": "circleIcon",
+        "text1": "The Highest Quality of Service",
+        "text2": "Secure Payments",
+        "text3": "Easy Returns"
+      },
+      {
+        "block_name": "topGoods",
+        "text1": "Top Goods",
+        "text2": "The most popular among customers",
+        "text3": ""
+      },
+      {
+        "block_name": "marketing1",
+        "text1": "Absolute protection.",
+        "text2": "",
+        "text3":  "The program of additional service (diagnosis, cleaning and repair) equipment purchased in retail stores for 2, 3 or 5 years, depending on your preference."
+      },
+      {
+        "block_name": "marketing2",
+        "text1": "Low prices.",
+        "text2": "You found cheaper? We will refund 200% of the difference!",
+        "text3": "Even if within 7 days, you will find a similar product from a competitor cheaper than we paid - we will return you to your bonus account 200% of the difference between the purchase price and found a lower price."
+      },
+      {
+        "block_name": "marketing3",
+        "text1": "Only certified goods.",
+        "text2": "All items in our store are accompanied by a guarantee.",
+        "text3": "We value our reputation, and therefore do not knowingly sell unofficial or illegal goods with no guarantee and service support in Ukraine."
+      }]
+    },
+    {
+      "cont_name": "about",
+      "header": "About Us",
+      "blocks": [
+        {
+          "block_name": "part1",
+          "text1": "Online Store eShop™ ",
+          "text2": "is by far the most popular electronics store and home appliances in Ukraine.",
+          "text3": "Our company has offices exist in all regions of Ukraine. Such a status we have achieved thanks to the widest possible range, reasonable pricing and excellent service."
+        },
+        {
+          "block_name": "part2",
+          "text1": "We can help you choose, ",
+          "text2": "we will not give to miss!",
+          "text3": "Our task is not only to simply sell the right product, but also to inform and educate the buyer. To do this, we remove the overview videos of 'hot' new products, preparing articles and news. Armed with comprehensive information about an interesting device and its main competitors, you will be able to make an informed buying decision is the commodity you want. Our site is visited by an average of more than 800 000 unique visitors per day, and this number continues to grow. Not stopping there, we continue to build momentum, striving to become the best in the country portal of electronics and household appliances - a place where you will be able to choose and purchase any equipment - conscious, inexpensive and convenient."
+        },
+        {
+          "block_name": "part3",
+          "text1": "For convenience, selection ",
+          "text2": "we strive to provide you with as much useful information about products.",
+          "text3": "We are professional vendors and consultants. In a telephone mode or directly to the store, they are ready to provide you with expert technical advice and answer any questions."
+        }]
+    },
+    {
+      "cont_name": "contact",
+      "header": "Contact Us",
+      "blocks": [
+        {
+          "block_name": "part1",
+          "text1": "We will be glad to see you at : ",
+          "text2": "207, Central Street, Dnipropetrovsk, Ukraine",
+          "text3": ""
+        },
+        {
+          "block_name": "part2",
+          "text1": "You can also write to us : ",
+          "text2": "support@eShop.com",
+          "text3": ""
+        }]
+    },
+    {
+      "cont_name": "categories",
+      "header": "Categories",
+      "blocks": []
+    }]
+}

@@ -1,0 +1,43 @@
+<div class="fe">
+<div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4">
+          <!-- <img class="img-circle" src="/img/images.jpg" alt="Generic placeholder image" width="140" height="140"> -->
+          <h1 class="contactSize">Cart</h1>
+          </div>
+          </div>
+<hr class="featurette-divider">
+{{shopCart}}
+      <div class="row">
+        <div class="col-xs-12">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th> </th>
+                    <th> </th>
+                    <th>Quantity</th>
+                    <th>Amount</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat-start="item in selectObj">
+                    <td><span class="glyphicon glyphicon-remove"></span> </td>
+                    <!-- <tr>
+                      <div>{{item}}</div>
+                    </tr> -->
+                    <td>
+                      <span class="glyphicon glyphicon-minus"></span>
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </td>
+                    <td ng-bind="{{item.cost}}"></td>
+                    <td></td>
+                  </tr>
+                  <tr ng-repeat-end></tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+<hr class="featurette-divider">
+</div>
+</div>

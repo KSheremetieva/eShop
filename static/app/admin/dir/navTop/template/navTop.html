@@ -1,0 +1,41 @@
+<!-- NAVTOP -->
+<div class="admin">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">eShop</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li ng-click="changeSetPage('Profile')"><a href="#">Profile</a></li>
+            <li ng-click="changeSetPage('Dashboard')"><a href="#">Dashboard</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Settings Page
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li ng-click="changeSetPage('Home Page')"><a href="#">Home Page</a></li>
+                <li ng-click="changeSetPage('Categories')"><a href="#">Categories</a></li>
+                <li ng-click="changeSetPage('About')"><a href="#">About</a></li>
+                <li ng-click="changeSetPage('Contact')"><a href="#">Contact</a></li>
+              </ul>
+            </li>
+            <!-- <li><a href="#">Settings</a></li> -->
+            <li ng-click="changeSetPage('Help')"><a href="#">Help</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li ng-click="showDir('Go to Front-End')"><a href="#"><span class="glyphicon glyphicon-sort"> </span>To Front-End</a></li>
+            <li ng-click="signOut()"><a href="#"><span class="glyphicon glyphicon-log-out"> </span>Sign Out</a></li>
+          </ul>
+          <!-- <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form> -->
+        </div>
+      </div>
+    </nav>
+</div> 

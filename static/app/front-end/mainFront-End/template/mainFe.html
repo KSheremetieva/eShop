@@ -1,0 +1,20 @@
+<!-- <h1>{{fe}}</h1>
+<h1>{{feCtrl}}</h1> -->
+<!-- <h1 ng-bind='page'>{{page}}</h1> -->
+	<navbar-dir></navbar-dir>
+	<carousel-dir></carousel-dir>
+	<circle-dir ng-if="page == 'Home'"></circle-dir>
+	<topgoods-dir ng-if="page == 'Home'" ng-init="changePage('Home')"></topgoods-dir>
+	<marketing-dir ng-if="page == 'Home'"></marketing-dir>
+	<about-dir ng-if="page == 'About'"></about-dir>
+	<contact-dir ng-if="page == 'Contact'"></contact-dir>
+
+	<product-dir ng-if="!!openProductFlag"></product-dir>
+	<!-- ng-if="prodPage == 'a'" -->
+	
+	<cat-dir ng-if="page == 'Categories' && openProductFlag == false"></cat-dir>
+	<cart-dir ng-if="page == 'Cart'"></cart-dir>
+	<!-- <product-dir ng-if="page == 'Product'"></product-dir> -->
+	<!-- <career-dir ng-if="page == 'Career'"></career-dir> -->
+	<!-- <stores-dir ng-if="page == 'Stores'"></stores-dir> -->
+	<footer-dir></footer-dir>

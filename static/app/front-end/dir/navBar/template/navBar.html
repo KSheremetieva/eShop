@@ -1,0 +1,39 @@
+<div class="fe">
+<div class="navbar-wrapper" style="position: fixed;">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">eShop</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li ng-click="changePage('Home')"><a href="#">Home</a></li> 
+                <!-- class="active" -->
+                <li ng-click="changePage('Categories'); changeProductFlag()"><a href="#about">Categories</a></li>
+                <li ng-click="changePage('About')"><a href="#about">About</a></li>
+                <!-- <li ng-click="page == 'Stores'"><a href="#about">Stores</a></li> -->
+                <li ng-click="changePage('Contact')"><a href="#contact">Contact</a></li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li ng-click="changePage('Cart'); changeProductFlag()"><a href="#"><span class="glyphicon glyphicon-shopping-cart"> </span></a></li>
+
+                <li ng-if="signInFlag == true" ng-click="showDir('Go to Admin')"><a href="#"><span class="glyphicon glyphicon-sort"> </span> To Admin</a></li>
+
+                <li ng-if="signInFlag  == false" ng-click="showDir('SignIn')"><a href="#"><span class="glyphicon glyphicon-log-in"> </span> Sign In</a></li>
+
+                <li ng-if="signInFlag == true" ng-click="signOut()"><a href="#"><span class="glyphicon glyphicon-log-out"> </span> Sign Out</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+</div>
+</div>

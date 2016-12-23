@@ -1,0 +1,81 @@
+<!-- PRODUCT -->
+<div class="fe">
+<div class="container marketing">
+  <div class="row">
+        <div class="col-xs-12">
+          <h1 class="aboutSize">Product</h1>
+          <hr class="featurette-divider">
+
+        <!-- MAIN PROD -->
+          <div class="admin">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="row">
+                      <div class="col-xs-6 col-sm-5">
+                        <img src="/img/lenovoG5045.jpg"  class="img-responsive" alt="Generic placeholder thumbnail">
+                      </div> 
+
+        <!-- MAIN PROD INFO -->
+                      <div class="col-xs-6 col-sm-7">
+                        <table class="table table-hover">
+                          <thead>
+                          </thead>
+                          <tbody ng-repeat="(key,value) in propsList">
+                            <tr ng-if="key != 'props'">
+                              <th scope="row">{{key}}</th>
+                              <td>{{value}}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 ng-bind="'Price: $' + priceLaptop"></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-5 col-xs-offset-9">
+      <div class="btn-group">
+        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-shopping-cart"> </span> Add to Cart</button>
+        <button type="button" class="btn btn-default" ng-click="changeProductFlag()">Go Back</button>
+      </div>
+      </div>
+    </div>
+<hr class="featurette-divider">
+
+
+<!-- PROPERTIES -->
+<h1>Properties:</h1>
+<!-- PROPS -->
+<div class="container">    
+    <div ng-repeat-start="item in propsList.props" class="col-sm-4" data-toggle="tooltip" title="{{item.desc}}">
+      <div class="panel panel-default">
+        <div class="panel-heading" style="height:50px;" ng-bind-template="{{item.prop_name}} {{item.val_name}}"></div>
+        <!-- {{item.prop_name}}  {{item.val_name}} -->
+        <div class="panel-body"><img src="/img/propsLaptop.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <!-- <div class="panel-footer" ng-bind="'Product ID: ' + {{item.prop_id}}"></div> -->
+        <div class="panel-footer" style="height: 40px">
+          <p class="btn-add" ng-bind="'Product ID: ' + {{item.prop_id}}" style="float: left;"></p>
+          <p class="btn-details" ng-bind="'Price: $' + priceProps" style="float: right;"></p>
+        </div>
+
+        <!-- Product ID: {{item.prop_id}} -->
+      </div>
+    </div>
+    <span ng-repeat-end></span>
+</div>
+<div class="row">
+  <div class="col-xs-2 col-xs-offset-10">
+    <button type="button" class="btn btn-default" ng-click="changeProductFlag()">Go Back</button>
+  </div>
+</div>
+</div>
+</div>
+
+<hr class="featurette-divider">

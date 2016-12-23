@@ -1,0 +1,97 @@
+{
+  "home": [
+      {
+        "slideText": [
+        {
+          "slide1": "Our world revolves around the customer.",
+          "slide2": "We care about quality customer service.",
+          "slide3": "We do our best to earn your trust."
+        }
+      ]},
+      {
+        "circleIcon": [
+          {
+            "icon1": "The Highest Quality of Service",
+            "icon2": "Secure Payments",
+            "icon3": "Easy Returns"
+        }  
+      ]},
+      {
+        "topGoods": [
+        {
+          "header1": "Top Goods",
+          "header2": "The most popular among customers"
+        }
+      ]},
+      {
+        "marketing": [
+        {
+          "part1": [
+          {
+            "header": "Absolute protection.",
+           "subHeader": "",
+           "text": "The program of additional service (diagnosis, cleaning and repair) equipment purchased in retail stores for 2, 3 or 5 years, depending on your preference."
+          }
+        ]},
+        {
+          "part2": [
+          {
+            "header": "Low prices.",
+            "subHeader": "You found cheaper? We will refund 200% of the difference!",
+            "text": "Even if within 7 days, you will find a similar product from a competitor cheaper than we paid - we will return you to your bonus account 200% of the difference between the purchase price and found a lower price."
+          }
+        ]},
+        {
+          "part3": [
+          {
+            "header": "Only certified goods.",
+            "subHeader": "All items in our store are accompanied by a guarantee.",
+            "text": "We value our reputation, and therefore do not knowingly sell unofficial or illegal goods with no guarantee and service support in Ukraine."
+          }
+        ]}
+      ]}
+    ],
+  "about": [
+    {"mainHeader": "About Us",
+      "part1": [
+        {
+          "header": "Online Store eShop™ ",
+          "subHeader": "is by far the most popular electronics store and home appliances in Ukraine.",
+          "text": "Our company has offices exist in all regions of Ukraine. Such a status we have achieved thanks to the widest possible range, reasonable pricing and excellent service."
+        }
+        ],
+      "part2": [
+        {
+          "header": "We can help you choose, ",
+          "subHeader": "we will not give to miss!",
+          "text": "Our task is not only to simply sell the right product, but also to inform and educate the buyer. To do this, we remove the overview videos of 'hot' new products, preparing articles and news. Armed with comprehensive information about an interesting device and its main competitors, you will be able to make an informed buying decision is the commodity you want. Our site is visited by an average of more than 800 000 unique visitors per day, and this number continues to grow. Not stopping there, we continue to build momentum, striving to become the best in the country portal of electronics and household appliances - a place where you will be able to choose and purchase any equipment - conscious, inexpensive and convenient."
+          }
+          ],
+      "part3": [
+        {
+          "header": "For convenience, selection ",
+          "subHeader": "we strive to provide you with as much useful information about products.",
+          "text": "We are professional vendors and consultants. In a telephone mode or directly to the store, they are ready to provide you with expert technical advice and answer any questions."
+        }
+        ]
+    }
+    ],
+  "contact": [
+    {
+      "mainHeader": "Contact Us",
+      "part1": [
+        {
+          "header": "We will be glad to see you at : ",
+          "subHeader": "207, Central Street, Dnipropetrovsk, Ukraine"
+        }],
+      "part2": [
+        {
+          "header": "You can also write to us : ",
+          "subHeader": "support@eShop.com"
+        }]
+    }],
+  "categories": [
+    {
+      "mainHeader": "Categories"
+    }]
+}

@@ -1,0 +1,34 @@
+<div class="admin">
+  <div class="container-fluid">
+      <div class="row">
+<!-- MAIN START -->
+        <div class="col-xs-9 col-xs-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Contact</h1>
+          <br>
+          <br>
+          <h2>Address:</h2>
+        	<blockquote>
+        		<div ng-repeat="(item, item1) in contactAdm">
+        			<div ng-if="item == 'blocks'">
+        				<div ng-repeat="(key, value) in item1">
+        					<div ng-if="key == '0'">
+        						<div ng-repeat="(name, text) in value">
+        							<div ng-if="name == 'text1'">{{text}}</div>
+        							<div ng-if="name == 'text2'" ng-model="addr">{{text}}</div>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+			</blockquote>
+			<br>
+
+		  <h2>Email:</h2>
+        	<blockquote>
+  				<p>В горах этой ночью прохладно. В разведке намаявшись днем...</p>
+			</blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

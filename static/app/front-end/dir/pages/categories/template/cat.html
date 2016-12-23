@@ -1,0 +1,35 @@
+<!-- CATEGORY -->
+<div class="fe">
+<!-- ng-if="prodPage != 'a'" -->
+ <!-- ng-if="!openProductFlag" -->
+<div class="container marketing">
+	<div class="row">
+        <div class="col-lg-4">
+          <h1 class="aboutSize">Categories</h1>
+        </div>
+    </div>
+<hr class="featurette-divider">
+
+<div class="container">    
+    <div ng-repeat-start="item in goods" class="col-sm-4" data-toggle="tooltip" title="{{item.desc}}">
+    <div class="hovereffect">
+      <div class="panel panel-primary">
+        <div class="panel-heading" style="height:50px;">{{item.name}}</div>
+        <div class="panel-body">
+            <img src="/img/lenovoG5045.jpg" class="img-responsive" style="width:100%" alt="Image">
+                        <div class="overlay">
+                         <!-- <h2>Image heading</h2> -->
+                         <p ng-click="dirProd(item)" class="info"> MORE INFO </p>
+                         <!-- ng-click="changePage('Product')" -->
+                         <!-- ng-click="openProd(item)" -->
+                         <!-- ng-click="dirProd('a')" -->
+            </div>
+        </div>
+        <div class="panel-footer">Buy 2 laptops and get a gift card</div>
+      </div>
+      </div>
+    </div>
+    <span ng-repeat-end></span>
+</div>
+</div>
+</div>

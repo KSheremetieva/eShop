@@ -1,0 +1,88 @@
+<div class="topGoods">
+<div class="container">
+<hr class="featurette-divider">
+
+    <div class="row">
+        <div class="row">
+            <div class="col-md-9">
+                <h2>Top Goods</h2>
+                <h4>The most popular among customers</h4>
+            </div>
+            <div class="col-md-3 hidden-sm">
+                <!-- Controls -->
+                <div class="controls pull-right hidden-xs">
+                    <a class="left glyphicon glyphicon-chevron-left btn btn-success" href="#carousel-example"
+                        data-slide="prev"></a>
+                        <a class="right glyphicon glyphicon-chevron-right btn btn-success" href="#carousel-example"
+                            data-slide="next"></a>
+                </div>
+            </div>
+        </div>
+        <div id="carousel-example" class="carousel slide " data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="row">
+<!-- TOP GOODS 1 -->
+                        <div class="col-xs-6 col-md-3" ng-repeat-start="item in topGoods1">
+                            <div class="col-item" style="margin-top:20px">
+                                <div class="photo">
+                                    <img src="/img/lenovoG5045.jpg" class="img-responsive" alt="a" />
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-xs-12">
+                                            <h5>{{item.name}}</h5>
+                                            <h5 class="price-text-color" ng-bind="'$' + priceLaptop"></h5>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add" ng-click="addToCart(item, priceLaptop)">
+                                            <i class="glyphicon glyphicon-shopping-cart"></i><span class="hidden-sm visible-xs">Add to cart</span></p>
+                                            <!-- class="hidden-xs" -->
+                                        <p class="btn-details">
+                                            <i class="glyphicon glyphicon-list-alt"></i><a href="http://www.jquery2dotnet.com" class="hidden-sm visible-xs">More details</a></p>
+                                            <!-- class="hidden-xs" -->
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span ng-repeat-end></span>
+                    </div>
+                </div>
+<!-- TOP GOODS 2 -->
+                <div class="item">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-3" ng-repeat-start="item in topGoods2">
+                            <div class="col-item" style="margin-top:20px">
+                                <div class="photo">
+                                    <img src="/img/lenovoG5045.jpg" class="img-responsive" alt="a" />
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-xs-12">
+                                            <h5>{{item.name}}</h5>
+                                            <h5 class="price-text-color" ng-bind="'$' + priceLaptop"></h5>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add" ng-click="addToCart(item, priceLaptop)">
+                                            <i class="glyphicon glyphicon-shopping-cart"></i><a href="http://www.jquery2dotnet.com" class="hidden-sm visible-xs">Add to cart</a></p>
+                                        <p class="btn-details">
+                                            <i class="glyphicon glyphicon-list-alt"></i><a href="http://www.jquery2dotnet.com" class="hidden-sm visible-xs">More details</a></p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span ng-repeat-end></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
